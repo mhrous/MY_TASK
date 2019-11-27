@@ -45,6 +45,12 @@ Object.defineProperty(exports, "reportsRouter", {
     return _reports.default;
   }
 });
+Object.defineProperty(exports, "pageRouter", {
+  enumerable: true,
+  get: function () {
+    return _page.default;
+  }
+});
 
 var _user = _interopRequireDefault(require("./user/user.model"));
 
@@ -59,5 +65,7 @@ var _expenses = _interopRequireDefault(require("./expenses/expenses.router"));
 var _travel = _interopRequireDefault(require("./travel/travel.router"));
 
 var _reports = _interopRequireDefault(require("./reports/reports.router"));
+
+var _page = _interopRequireDefault(require("./pageInfo/page.router"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

@@ -12,7 +12,8 @@ import {
   paymentRouter,
   expensesRouter,
   travelRouter,
-  reportsRouter
+  reportsRouter,
+  pageRouter
 } from "./resources";
 
 export const app = express();
@@ -36,6 +37,7 @@ app.use("/api/payment", paymentRouter);
 app.use("/api/expenses", expensesRouter);
 app.use("/api/travel", travelRouter);
 app.use("/api/reports", reportsRouter);
+app.use("/api/page", pageRouter);
 
 export const start = async () => {
   try {

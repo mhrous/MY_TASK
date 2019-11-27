@@ -38,6 +38,7 @@ app.use("/api/payment", _resources.paymentRouter);
 app.use("/api/expenses", _resources.expensesRouter);
 app.use("/api/travel", _resources.travelRouter);
 app.use("/api/reports", _resources.reportsRouter);
+app.use("/api/page", _resources.pageRouter);
 
 const start = async () => {
   try {
