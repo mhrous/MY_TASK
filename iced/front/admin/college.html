@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>تحكم ادمن ( كليات )</title>
+    <link rel="icon" href="../assets/img/brand/logo.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="../assets/libs/%40fortawesome/fontawesome-pro/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../assets/css/purpose-blue-dark.css"
+      id="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="main-content">
+      <section class="slice pt-0 bg-section-secondary">
+        <div class="bg-primary sub-header"></div>
+        <div class="container " style="top:-100px;position: relative;">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card pt-4 pb-4">
+                <div
+                  class="d-flex justify-content-center  flex-wrap  route-container"
+                >
+                  <a
+                    href="./university.html"
+                    class="btn btn-sm   rounded-pill shadow hover-translate-y-n3   "
+                  >
+                    <h5 class="mb-0">جامعات</h5>
+                  </a>
+                  <a
+                    href="./college.html"
+                    class="btn btn-sm   rounded-pill shadow active hover-translate-y-n3"
+                  >
+                    <h5 class="mb-0">كليات</h5>
+                  </a>
+                  <a
+                    href="./subject.html"
+                    class="btn btn-sm   rounded-pill shadow hover-translate-y-n3"
+                  >
+                    <h5 class="mb-0">مواد</h5>
+                  </a>
+
+                  <a
+                    href="./events.html"
+                    class="btn btn-sm   rounded-pill shadow hover-translate-y-n3"
+                  >
+                    <h5 class="mb-0">فعاليات</h5>
+                  </a>
+                  <a
+                    href="./projects.html"
+                    class="btn btn-sm   rounded-pill shadow hover-translate-y-n3"
+                  >
+                    <h5 class="mb-0">مشاريع</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <div class="card">
+                <div class="card-header  border-0"></div>
+                <div class=" border-0 table-responsive">
+                  <table class="table  align-items-center">
+                    <thead>
+                      <tr>
+                        <th
+                          scope="col"
+                          class="sort text-center"
+                          data-sort="name"
+                        >
+                          <h6>الجامعة</h6>
+                        </th>
+                        <th
+                          scope="col"
+                          class="sort text-center"
+                          data-sort="name"
+                        >
+                          <h6>الكلية</h6>
+                        </th>
+                        <th
+                          scope="col"
+                          class="sort text-center"
+                          data-sort="name"
+                        >
+                          <h6>سنوات الدراسة</h6>
+                        </th>
+
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody class="list text-center"></tbody>
+                  </table>
+                </div>
+                <div class="mt-4 mb-2 text-center">
+                  <a
+                    href="#"
+                    class="btn btn-sm btn-neutral add-new-college  rounded-pill shadow hover-translate-y-n3"
+                  >
+                    <i class="fa fa-plus"></i>
+                  </a>
+                </div>
+
+                <div
+                  class="modal fade"
+                  id="add-college"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          اضافة كلية جديدة جديدة
+                        </h5>
+                        <button
+                          type="button"
+                          class="close "
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span
+                            class="text-danger hover-scale-110"
+                            aria-hidden="true"
+                            >&times;</span
+                          >
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="form-group">
+                          <label for="university" class="float-right"
+                            >اسم الجامعة</label
+                          >
+                          <div>
+                            <select
+                              id="university"
+                              name="select"
+                              class="custom-select"
+                            >
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="name" class="float-right"
+                            >اسم الكلية</label
+                          >
+                          <input
+                            id="name"
+                            name="text1"
+                            type="text"
+                            class="form-control"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="years" class="float-right"
+                            >عدد السنوات</label
+                          >
+                          <input
+                            id="years"
+                            type="number"
+                            class="form-control"
+                            min="2"
+                            max="8"
+                            step="1"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="description" class="float-right"
+                            >وصف</label
+                          >
+                          <textarea
+                            id="description"
+                            cols="40"
+                            rows="5"
+                            class="form-control"
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary ml-1"
+                          data-dismiss="modal"
+                        >
+                          الغاء
+                        </button>
+                        <button
+                          type="button"
+                          id="ok-btn"
+                          class="btn btn-primary"
+                        >
+                          اضافة
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="../assets/js/purpose.core.js"></script>
+    <script src="../assets/js/purpose.js"></script>
+    <script src="../assets/libs/sweetalert2.js"></script>
+    <script src="./js/lib.js"></script>
+    <script src="./js/services.js"></script>
+    <script src="./js/college.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+* {
+  direction: rtl;
+}
+
+.table-cards tbody tr th,
+.table-cards tbody tr th:after {
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+.table-cards tbody tr td:last-child {
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+.route-container a {
+  width: 100px;
+  margin-right: 0;
+  padding: 0.75rem 1.3rem;
+  margin: 0.4rem;
+}
+.route-container .active,
+.route-container a:hover {
+  background: #306eff !important;
+}
+
+.sub-header {
+  height: 200px;
+}
+
+table tr{
+  border: none
+}
+table th {
+  background: transparent !important;
+  border-top: none!important;
+
+
+}
+.modal-header .close{
+  margin: -1rem
+}

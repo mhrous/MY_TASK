@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>جامعتي</title>
+
+    <link
+      rel="stylesheet"
+      href="../assets/libs/%40fortawesome/fontawesome-pro/css/all.min.css"
+    />
+    <!-- Purpose CSS -->
+    <link
+      rel="stylesheet"
+      href="../assets/libs/%40fancyapps/fancybox/dist/jquery.fancybox.min.css"
+    />
+
+    <link rel="stylesheet" href="../assets/css/purpose-blue-dark.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="main-content">
+      <header class="header header-transparent" id="header-main">
+        <nav
+          class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark bg-dark"
+          id="navbar-main"
+        >
+          <div class="container px-lg-0">
+            <button
+              class="navbar-toggler pr-0"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbar-main-collapse"
+              aria-controls="navbar-main-collapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar nav -->
+            <div class="collapse navbar-collapse" id="navbar-main-collapse">
+              <ul class="navbar-nav align-items-lg-center">
+                <!-- Home - Overview  -->
+
+                <!-- Sections menu -->
+                <li class="nav-item">
+                  <a href="./landingPage.html" class="nav-link">الرئيسية</a>
+                </li>
+                <li
+                  class="nav-item dropdown dropdown-animate"
+                  data-toggle="hover"
+                >
+                  <a
+                    class="nav-link dropdown-toggle font-weight-bold"
+                    href="#"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >كليات</a
+                  >
+                  <div
+                    class="dropdown-menu dropdown-menu-arrow dropdown-menu-lg-right dropdown-menu-xl  p-0"
+                  >
+                    <div
+                      class="dropdown-menu-links rounded-bottom delimiter-top p-4"
+                    >
+                      <div class="row" id="college-dropdown-container"></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">من نحن</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="./event.html" class="nav-link">فعاليات </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./project.html" class="nav-link">مشاريع تخرج </a>
+                </li>
+              </ul>
+            </div>
+
+            <a class="navbar-brand mr-lg-5" href="index-2.html">
+              <img
+                alt="Image placeholder"
+                src="../assets/img/brand/logo.png"
+                style="height: 75px;"
+              />
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <header class="header-account-page bg-primary d-flex align-items-end">
+        <!-- Header container -->
+        <div class="container">
+          <div class="row">
+            <div class=" col-lg-12">
+              <!-- Salute + Small stats -->
+              <div class="row  mb-4">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 text-right mb-4 mb-md-0">
+                  <span
+                    class="  h2 mb-0 text-white d-block college-name"
+                  ></span>
+                </div>
+              </div>
+              <!-- Account navigation -->
+              <div class="d-flex justify-content-center">
+                <div
+                  class="btn-group btn-group-nav shadow"
+                  id="sub-header"
+                  role="group"
+                  aria-label="Button group with nested dropdown"
+                >
+                  <button type="button" data-tap="m" class="btn btn-white">
+                    رئيسية
+                  </button>
+
+                  <div class="btn-group" role="group">
+                    <button
+                      id="btnGroupDrop1"
+                      type="button"
+                      class="btn btn-white dropdown-toggle"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      data-tap="s"
+                    >
+                      مواد
+                    </button>
+                    <ul
+                      class="dropdown-menu  dropdown-menu-right"
+                      aria-labelledby="btnGroupDrop1"
+                    >
+                      <li class="dropdown-submenu  ">
+                        <a
+                          class="dropdown-item "
+                          href="#"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          >Action</a
+                        >
+                        <div class="dropdown-menu dropdown-menu-right">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                      </li>
+                      <li class="dropdown-submenu ">
+                        <a
+                          class="dropdown-item"
+                          href="#"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          >Action</a
+                        >
+                        <div class="dropdown-menu ">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                      </li>
+                      <li class="dropdown-submenu  ">
+                        <a
+                          class="dropdown-item"
+                          href="#"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          >Action</a
+                        >
+                        <div class="dropdown-menu  ">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <button type="button" data-tap="e" class="btn btn-white">
+                    فعاليات
+                  </button>
+
+                  <button type="button" data-tap="p" class="btn btn-white">
+                    مشاريع تخرج
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section
+        class="slice slice-lg bg-section-secondary delimiter-top delimiter-bottom"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div id="main-tab" class="tap-item ">
+                <div class="card shadow">
+                  <div
+                    class="card-body px-lg-5 py-lg-5"
+                    id="main-container"
+                    style="text-align: right;"
+                  ></div>
+                </div>
+              </div>
+              <div id="subject-tab" class="tap-item hidden-item">subject</div>
+              <div id="event-tab" class="tap-item hidden-item">event</div>
+              <div
+                id="project-tab"
+                class="tap-item d-flex justify-content-center hidden-item "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slice slice-lg   zindex-101">
+        <div class="container">
+          <ul
+            class="nav justify-content-center mb-4"
+            id="social-media-container"
+          ></ul>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-8 text-center">
+              <h3 class="font-weight-400">موقع جامعتي - جميع الحقوق محفوظة</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="../assets/js/purpose.core.js"></script>
+    <script src="../assets/libs/%40fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+
+    <script src="../assets/js/purpose.js"></script>
+    <script src="./js/services.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/college.js"></script>
+  </body>
+</html>
