@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40d90378-3240-42b9-8ec9-c439ab561bf2" name="Default Changelist" comment="" />
+    <list default="true" id="40d90378-3240-42b9-8ec9-c439ab561bf2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_DetectChars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_DetectPlates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_PossibleChar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_PossiblePlate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectPlates.py" beforeDir="false" afterPath="$PROJECT_DIR$/detectPlates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initKnnFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/initKnnFile.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +25,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1V9a4eDrgt8ga0fJ5R1utl0zXri" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../openCV project" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,12 +74,9 @@
       <method v="2" />
     </configuration>
     <configuration name="initKnnFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Project Vision" />
+      <module name="vvv" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -72,7 +84,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/initKnnFile.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -145,10 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.initKnnFile" />
+        <item itemvalue="Python.initKnnFile" />
         <item itemvalue="Python.j" />
         <item itemvalue="Python.main_image" />
         <item itemvalue="Python._TrainAndTest" />
-        <item itemvalue="Python.train" />
       </list>
     </recent_temporary>
   </component>
@@ -164,5 +176,16 @@
       <updated>1576667574340</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
