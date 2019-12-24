@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40d90378-3240-42b9-8ec9-c439ab561bf2" name="Default Changelist" comment="">
+    <list default="true" id="40d90378-3240-42b9-8ec9-c439ab561bf2" name="Default Changelist" comment="delete">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vvv.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_imagePlate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_DetectChars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_DetectPlates.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_PossibleChar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_PossiblePlate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/char.py" beforeDir="false" afterPath="$PROJECT_DIR$/char.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detectPlates.py" beforeDir="false" afterPath="$PROJECT_DIR$/detectPlates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/initKnnFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/initKnnFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/preprocess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +55,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.initKnnFile">
-    <configuration name="_TrainAndTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Project Vision" />
+  <component name="RunManager" selected="Python.main_image">
+    <configuration name="detectPlates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vvv" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -64,7 +68,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_TrainAndTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detectPlates.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,6 +81,9 @@
       <module name="vvv" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -91,19 +98,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="j" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Project Vision" />
+    <configuration name="main_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vvv" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Mahrous\Anaconda3\envs\python-cvcourse\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/j.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,8 +119,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Project Vision" />
+    <configuration name="main_imagePlate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vvv" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -124,7 +131,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_imagePlate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.initKnnFile" />
-        <item itemvalue="Python.initKnnFile" />
-        <item itemvalue="Python.j" />
         <item itemvalue="Python.main_image" />
-        <item itemvalue="Python._TrainAndTest" />
+        <item itemvalue="Python.main_imagePlate" />
+        <item itemvalue="Python.detectPlates" />
+        <item itemvalue="Python.initKnnFile" />
+        <item itemvalue="Python.initKnnFile" />
       </list>
     </recent_temporary>
   </component>
@@ -175,17 +182,41 @@
       <option name="presentableId" value="Default" />
       <updated>1576667574340</updated>
     </task>
+    <task id="LOCAL-00001" summary="delete">
+      <created>1576718651057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576718651057</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete" />
   </component>
 </project>

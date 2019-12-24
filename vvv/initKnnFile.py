@@ -1,5 +1,4 @@
-import operator
-from time import sleep,time
+from time import time
 
 import cv2
 import numpy as np
@@ -20,18 +19,17 @@ RECT_THICKNESS = 1
 
 DIGIT_LIST = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 0]
 
-SLEEP = .1
-SHOW_STEP = False
+SLEEP = .8
+SHOW_STEP = True
 
 
 def main():
-    START_TIME = time()
+    start_time = time()
     images_path = get_file(KNN_TRAINING_IMAGE_PATH)
     np_images = np.empty((0, RESIZED_IMAGE_WIDTH * RESIZED_IMAGE_HEIGHT))
     classifications = []
 
     for path in images_path:
-        cv2.destroyAllWindows()
 
         image = cv2.imread(path)
         image_process = pre_process(image)
@@ -71,8 +69,7 @@ def main():
                 cv2.imshow(f"main image", image)
                 cv2.imshow(f"thresh image", image_thresh)
                 cv2.imshow(f"digit {digit}", digit_image_resized)
-                cv2.waitKey(1)
-                sleep(SLEEP)
+                cv2.waitKey(int(SLEEP * 1000))
                 cv2.destroyAllWindows()
             classifications.append(digit)
             np_digit = digit_image_resized.reshape(
@@ -84,7 +81,7 @@ def main():
     classifications = classifications.reshape((classifications.size, 1))
     np.savetxt(f"{KNN_FILE_PATH}\\classifications.txt", classifications)
     np.savetxt(f"{KNN_FILE_PATH}\\images.txt", np_images)
-    print(f"TIME : {time() - START_TIME}")
+    print(f"TIME : {time() - start_time}")
 
 
 if __name__ == "__main__":

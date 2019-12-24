@@ -1,8 +1,12 @@
 import cv2
+import numpy as np
 
 GAUSSIAN_SMOOTH_FILTER_SIZE = (5, 5)
 ADAPTIVE_THRESH_BLOCK_SIZE = 19
 ADAPTIVE_THRESH_WEIGHT = 9
+
+DILATION_KERNEL = np.ones((5, 5), np.uint8)
+DILATION_ITERATION = 3
 
 
 def pre_process(img):
@@ -30,4 +34,5 @@ def maximize_contrast(img_gray):
     img_black_hat = cv2.morphologyEx(img_gray, cv2.MORPH_BLACKHAT, structuring_element)
     img_gray_plus_top_hat = cv2.add(img_gray, img_top_hat)
     img_gray_plus_top_hat_minus_black_hat = cv2.subtract(img_gray_plus_top_hat, img_black_hat)
+
     return img_gray_plus_top_hat_minus_black_hat
