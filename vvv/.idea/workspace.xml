@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40d90378-3240-42b9-8ec9-c439ab561bf2" name="Default Changelist" comment="delete">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vvv.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_imagePlate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char.py" beforeDir="false" afterPath="$PROJECT_DIR$/char.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detectPlates.py" beforeDir="false" afterPath="$PROJECT_DIR$/detectPlates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initKnnFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/initKnnFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/preprocess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

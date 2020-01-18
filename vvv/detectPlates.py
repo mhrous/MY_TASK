@@ -22,7 +22,7 @@ def detect_plates_in_image(image, show_step=False, time_sleep=0):
         cv2.imshow(f"thresh image", image_thresh)
         cv2.imshow("image thresh chars", image_thresh_char)
         cv2.waitKey(int(time_sleep * 1000))
-        cv2.destroyAllWindows()
+        # cv2.destroyAllWindows()
 
 
     return plates
